@@ -1,6 +1,6 @@
 LEIA ANTES DE USAR
 
-O Projeto Workspace é dividido em duas partes: a página web e a aplicação desktop. Ao abrir a pasta Workspace, o projeto da página web está na pasta web_page, e o código principal é o app.py; enquanto o projeto do software está na pasta desktop_app, e o código principal é o main.py.
+O Projeto Workspace é dividido em duas partes: a página web e a aplicação desktop. Ao abrir a pasta geral, o projeto da página web está na pasta web_page, e o código principal é o app.py; enquanto o projeto do software está na pasta desktop_app, e o código principal é o main.py.
 
 Banco de dados (MySQL)
 
