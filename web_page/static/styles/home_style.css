@@ -1,0 +1,121 @@
+#home_top_div {
+    background-image: url(/static/images/home_background.png);
+    background-size: cover;
+    height: 700px;
+    padding-top: 130px;
+    padding-right: 900px;
+    padding-left: 150px;
+}
+
+#home_top_div h1 {
+    color: white;
+}
+
+#home_top_div hr {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#home_top_div p {
+    color: white;
+    text-align: justify;
+}
+
+#home_top_div button {
+    font-family: 'Title font';
+    color: white;
+    background-color: #161719;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    font-size: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 180px;
+    text-align: center;
+}
+
+#home_top_div button:hover {
+    font-size: 33px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#home_middle_div {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 90px;
+}
+
+#home_middle_div hr {
+    margin-bottom: 50px;
+}
+
+#home_middle_div_2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#home_middle_div_2 img {
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#home_middle_div_2 div {
+    display: block;
+}
+
+#home_middle_div_2 p {
+    text-align: justify;
+}
+
+#home_bottom_div {
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 12px 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 90px;
+    background-color: #161719;
+}
+
+#home_bottom_div h1 {
+    padding-top: 90px;
+    color: white;
+}
+
+#home_bottom_div hr {
+    margin-bottom: 50px;
+}
+
+#home_bottom_div_2 {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#home_bottom_div_2 p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+#home_bottom_div_2 button {
+    font-family: 'Title font';
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#home_bottom_div_2 button:hover {
+    font-size: 40px;
+    cursor: pointer;
+}

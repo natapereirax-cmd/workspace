@@ -1,0 +1,33 @@
+#about_us_main {
+    background-image: url(/static/images/home_background.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about_us_div {
+    background-color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 30px;
+}
+
+#about_us_div h1, h2 {
+    padding-top: 50px;
+}
+
+#about_us_div hr {
+    margin-right: 100px;
+}
+
+#about_us_div p {
+    margin-right: 100px;
+
+    text-align: justify;
+}

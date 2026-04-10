@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/static/styles/sign_up_style.css">
+<div id="sign_up_main">
+    <div id="sign_up_div">
+        <h1>Sign Up</h1>
+        <form id="sign_up_form">
+            <div class="first_last">
+                <input type="text" placeholder="First Name" id="firstname" oninput="this.value = this.value.replace(/[^a-zA-ZÀ-ÿ\s]/g, '')">
+                <input type="text" placeholder="Last Name" id="lastname" oninput="this.value = this.value.replace(/[^a-zA-ZÀ-ÿ\s]/g, '')">
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="Username" id="username">
+                <input type="email" placeholder="Email" id="email">
+                <span id="email_error" style="color:red;"></span>
+                <input type="password" placeholder="Password" id="password">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="/static/javascript/sign_up.js"></script>
+</div>
+{% endblock %}

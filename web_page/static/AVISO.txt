@@ -1,0 +1,5 @@
+ATENÇÃO: Este projeto ainda está em andamento, 
+ainda não existe um arquivo executavel para o aplicativo.
+
+Execute o projeto de acordo com as instruções do arquivo LEIAME.txt, 
+que está na pasta Workspace.

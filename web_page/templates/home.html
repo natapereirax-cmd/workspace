@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="/static/styles/home_style.css">
+<div id="home_top_div">
+    <h1>Welcome to Workspace!</h1>
+    <hr>
+    <p>Looking for a better way to organize your work?</p>
+    <hr>
+    <p>Workspace provides the structure you need to organize projects, tasks, and priorities efficiently.</p>
+    <hr>
+    <p>Start a <b>new journey</b> with Workspace and take control of your tasks.</p>
+    <button id="get_started">Get Started</button>
+</div>
+<div id="home_middle_div">
+    <h2>Who Are We?</h2>
+    <hr>
+    <div id="home_middle_div_2">
+        <div>
+            <p>Workspace is a platform designed to help you organize your tasks, projects, and daily responsibilities in a clear and efficient way. Instead of dealing with scattered notes and unfinished lists, Workspace brings everything together in one place, allowing you to focus on what truly matters.</p>
+             <p>With a simple and intuitive interface, Workspace helps you plan your day, track your progress, and manage your workflow without unnecessary complexity. Whether you are studying, working on personal goals, or managing multiple projects, the platform adapts to your routine and supports your productivity.</p>
+             <p>Our goal is to make organization feel natural, not overwhelming. Workspace provides the structure you need to stay consistent, reduce stress, and keep moving forward with confidence.</p>
+        </div>
+        <img src="/static/images/chart.png" alt="">
+    </div>
+</div>
+<div id="home_bottom_div">
+        <h1>Start Organizing Today</h1>
+        <hr>
+        <div id="home_bottom_div_2">
+            <p>Download Workspace and bring structure to your tasks, projects, and daily goals. A simpler and more efficient workflow is just one step away.</p>
+            <button id="get_workspace">Get Workspace</button>
+        </div>
+    </div>
+    <script src="/static/javascript/home.js"></script>
+{% endblock %}
