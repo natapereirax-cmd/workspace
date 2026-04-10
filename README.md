@@ -1,12 +1,14 @@
 # WorkSpace 
 
-O WorkSpace foi desenvolvido para proporcionar uma experiência simples, organizada e eficiente na interação com o sistema. Ela representa a camada visual do projeto, permitindo que o usuário acesse e utilize as funcionalidades de forma intuitiva e direta.
+O WorkSpace foi desenvolvido para proporcionar uma experiência simples, organizada e eficiente na interação com o sistema. O projeto consiste em um site que apresenta um aplicativo desktop que permite ao usuário criar categorias e adicionar tarefas com prazo de entrega e nível de prioridade para cada categoria que ele criar
 
 ---
 
 ## Proposta
 
-O objetivo desta interface é oferecer uma navegação clara e funcional, facilitando o uso do sistema sem complexidade desnecessária. O foco está na usabilidade, organização e integração com o backend.
+O objetivo do projeto é desenvolver interfaces que proporcionem uma navegação clara, fluida e funcional, tornando o uso do sistema intuitivo e livre de complexidade desnecessária.
+
+O foco está na usabilidade, na organização e na integração consistente com o backend, responsável por processar as ações do usuário em tempo real, tanto durante a navegação quanto no envio de dados, seja no cadastro de novos usuários ou na gestão das atividades vinculadas a cada conta.
 
 ---
 
@@ -15,7 +17,6 @@ O objetivo desta interface é oferecer uma navegação clara e funcional, facili
 * Interface limpa e estruturada
 * Navegação entre páginas
 * Integração com os serviços do sistema
-* Download de arquivos
 * Design leve e responsivo
 
 ---
