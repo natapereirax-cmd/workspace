@@ -1,35 +1,76 @@
-# WorkSpace 
+# Workspace
 
-O WorkSpace foi desenvolvido para proporcionar uma experiência simples, organizada e eficiente na interação com o sistema. O projeto consiste em um site que apresenta um aplicativo desktop que permite ao usuário criar categorias e adicionar tarefas com prazo de entrega e nível de prioridade para cada categoria que ele criar
+O projeto Workspace é dividido em duas partes: uma **página web** e uma **aplicação desktop**.
 
----
-
-## Proposta
-
-O objetivo do projeto é desenvolver interfaces que proporcionem uma navegação clara, fluida e funcional, tornando o uso do sistema intuitivo e livre de complexidade desnecessária.
-
-O foco está na usabilidade, na organização e na integração consistente com o backend, responsável por processar as ações do usuário em tempo real, tanto durante a navegação quanto no envio de dados, seja no cadastro de novos usuários ou na gestão das atividades vinculadas a cada conta.
-
----
-
-## Funcionalidades
-
-* Interface limpa e estruturada
-* Navegação entre páginas
-* Integração com os serviços do sistema
-* Design leve e responsivo
+```
+Workspace/
+├── web_page/       # Projeto da página web
+│   └── app.py      # Código principal do site
+└── desktop_app/    # Projeto do software desktop
+    └── main.py     # Código principal do software
+```
 
 ---
 
-## Conceito
+## Pré-requisitos
 
-O desenvolvimento prioriza:
-* Simplicidade
-* Clareza visual
-* Organização do código
+- Python 3.x
+- MySQL Server 8.0
+- Bibliotecas listadas em `requirements.txt`
 
 ---
 
-## Status
+## 1. Configurar o banco de dados (MySQL)
 
-Projeto em desenvolvimento.
+Abra o **Prompt de Comando** e conecte-se ao MySQL:
+
+```bash
+"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql.exe" -u root -p
+```
+
+Digite sua senha e execute o schema:
+
+```sql
+SOURCE schema.sql;
+```
+
+Em seguida, abra o arquivo `.env` na raiz do projeto e preencha as variáveis:
+
+```env
+HOST=localhost
+USER=root
+PASSWORD=sua_senha
+DB_NAME=workspace_db
+```
+
+---
+
+## 2. Instalar dependências
+
+Na pasta raiz do projeto (`Workspace/`), execute:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 3. Executar o projeto
+
+**Página web**
+
+```bash
+cd web_page
+python app.py
+```
+
+Acesse no navegador: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
+
+---
+
+**Aplicação desktop**
+
+```bash
+cd desktop_app
+python main.py
+```
